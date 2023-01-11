@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+       <title>  Life Care Insurance  </title>
+       <link rel ="stylesheet" href="../css/Card_details.css">
+       <script src="../js/Card_details.js"> </script>
+</head> 
+    <body>
+     
+        <!--header-->
+	<nav> 
+        <div class="logo"> 
+           <a href="#" ><img src="../images/logo.PNG" height="=100px"  width="100px" >
+           </a>
+           ,<a href="#" ><p class="lic"> LIFE CARE <br> INSURANCE</p></a>
+         
+        </div>
+    
+        <ul> 
+            <li> <a class="links" href="lifecare.html"> Logout </a> </li>
+            <li> <a class="links" href="Contact.html"> Contact Us </a> </li>
+            <li> <a class="links" href="Pay_online.html"> Pay Online </a> </li>
+            <li class="dropdown">
+                <a href="#"  class="links">Catogery</a>
+                <div class="dropdown-content">
+                  <a href="../html/whole.html">Whole Life</a>
+                  <a href="../html/term1.html">Term Life</a>
+                
+                </div>
+
+            <li>  <a class="links" href="../html/About.html">About Us </a> </li>
+        </ul>
+    </nav>
+
+
+<!--Form-->
+
+<div class="wrapper2">
+    <form name="pay-online" method="POST" action="../php/Card_details.php">
+        <h3>Card Details</h3>
+
+
+        <h4 class="title1">Card Type</h4>
+        <div class="first-row">
+            <div class="radio1">
+            <input type="radio" id="visa" value="visa" name="card_type">
+            <label for="visa">Visa</label>
+            <img src="../images/visa.png" class="cardimg"/>
+            </div>
+            
+            <div class="radio2">
+            <input type="radio" id="mas" value="Master Card" name="card_type">
+            <label for="mas">Master Card</label>
+            <img src="../images/master.png" class="cardimg"/>
+            </div>
+        </div>
+
+
+        <h4 class="title2">Card Number</h4>
+        <div class="first-row">
+            <div class="input-box">
+                <input type="text" id="txt1" name="card_number" placeholder="Card Number" class="name">
+            </div>
+        </div>
+
+        
+        <div class="first-row">
+            <div class="input-box">
+                <h4 class="title2">Expiration Month</h4>
+                <select name="months" id="months" class="name">
+                    <option value="Jan">Jan</option>
+                    <option value="Feb">Feb</option>
+                    <option value="Mar">Mar</option>
+                    <option value="Apr">Apr</option>
+                    <option value="May">May</option>
+                    <option value="Jun">Jun</option>
+                    <option value="Jul">Jul</option>
+                    <option value="Aug">Aug</option>
+                    <option value="Sep">Sep</option>
+                    <option value="Oct">Oct</option>
+                    <option value="Nov">Nov</option>
+                    <option value="Dec">Dec</option>
+                </select>
+            </div>
+
+            <div class="input-box">
+                <h4 class="title2">Expiration Year</h4>
+                <select name="years" id="years" class="name">
+                    <option value="001">2021</option>
+                    <option value="002">2022</option>
+                    <option value="003">2023</option>
+                    <option value="004">2024</option>
+                    <option value="005">2025</option>
+                    <option value="006">2026</option>
+                    <option value="007">2027</option>
+                    <option value="008">2028</option>
+                </select>
+            </div>
+        </div>
+
+
+        <div class="first-row">
+            <div class="input-box">
+                <h4 class="title2">CVN</h4>
+                <p class="cvn">This code is a three or four digit number printed on the back or front of credit cards.</p>
+                <input type="text" id="txt2" name="cvn" placeholder="CVN" class="cvn1">
+                <img src="../images/cvn.JPG" class="cvnimg"/>
+            </div>
+
+        </div>
+
+        <div class="first-row">
+            <div class="input-box">
+                <h4 class="title2">Amount</h4>
+                <input type="text" id="txt2" name="amount" placeholder="Amount" class="cvn1">
+
+            </div>
+
+        </div>
+<!-- This is in between form -->
+        
+        <button type="button" class="button" onclick="pays();">Back</button>
+
+        <button type="reset" class="re-button">Reset</button>
+
+        <button type="submit" class="sub-button">Pay Now</button>
+    </form>
+    </div>
+
+
+	    <!--footer-->
+
+        <div class="footer">
+            <a href="#" ><h2 class="cu" >  Contact Us   </h2> </a>
+            <img class="location" src="../images/location.jpg" height="30px" width="30px"> 
+            <h3 class="h3location">  Life care insurance, <br>No 132,<br> station rd,colombo 04. </h3>
+            <img class="email" src="../images/mail.png" height="30px" width="30px">
+            <h3 class="h3email" > lifecareinsurance@gmail.com </h3>
+            <img class="phone " src="../images/call.png"  height="30px" width="30px">
+            <h3 class="h3phone" >011588777 </h3>
+            <a href="#"><img class="footerlogo" src="../images/flogo.PNG" height="210px" width="210px " alt="flogo"> </a>
+
+            <a   href="#"><h2 class="fu"> Find Us</h2></a>
+            <a   href="www.facebook.com"><img class="fb" src="../images/fb.png" height="30px" width="30px" > </a>
+            <a  href="www.instagram.com"><img class="tt" src="../images/tt.png" height="30px" width="30px"> </a>
+            <a  href="www.twitter.com"><img class="insta" src="../images/insta.png" height="30px" width="30px"> </a>
+            <h2 class="copy"> Copywrite All Right Recieved @ </h2>
+        </div>
+       
+	
+ </body>
+</html>

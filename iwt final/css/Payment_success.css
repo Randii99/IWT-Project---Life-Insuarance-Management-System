@@ -1,0 +1,283 @@
+body{
+	height: 100vh;
+	background-image: url(../Images/bi.jpg ) ;
+    background-position:unset;
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+/*header*/
+li {
+	list-style: none ;
+	float: right;
+
+}
+
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: rgb(163, 6, 6);
+  }
+  
+li.dropdown {
+	display: inline-block;
+  }
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: small;
+	border-radius: 5px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: left;
+  }
+  
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	 color: black;
+	
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+	background: linear-gradient(rgb(22, 224, 180),blue);
+	
+	
+  }
+
+.lic{
+	font-size:large;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	top: 30px;
+	position:absolute;
+	left: 110px;
+	color: antiquewhite;
+}
+.logo{
+	float: left;
+	
+}
+.links{
+	text-decoration: none;
+	color: rgb(108, 224, 209);
+	display: block;
+	padding: 18px;
+	margin: 5px;
+	font-size: 28px ;
+	position: relative;
+    top: 15px;
+    transition: background-color 0.9s;
+	border-radius: 25px;
+	border-style:unset;
+}
+.links2
+{
+	text-decoration: none;
+	color: rgb(253, 253, 253);
+	display: block;
+	padding: 18px;
+	font-size: 25px ;
+	position: relative;
+    top: 12px;
+    transition: background-color 0.9s;
+	border-radius: 45px;
+}
+.links:hover
+{  
+	background-color: rgb(143, 39, 53);
+	color: rgb(255, 255, 255);
+	
+}
+.links2:hover{
+	background-color: rgb(8, 184, 238);
+	color: rgb(255, 255, 255);
+}
+
+nav {
+	overflow :hidden ;
+	background-color: rgb(20, 22, 121);
+
+}
+*{ margin: 0px;
+	padding: 0px;
+}
+
+.payment{
+	text-align: center;
+}
+
+.success{
+	position: relative;
+	top: 40px;
+	font-size: 40px;
+	font-weight: bold;
+	letter-spacing: 3px;
+}
+
+.thank{
+	position: relative;
+	top: 55px;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.image{
+	width: 120px;
+	height: 120px;
+	position: relative;
+	top: 70px;
+	left: 60px;
+}
+
+.button{
+	position: relative;
+	top: 120px;
+	width: 120px;
+	border-radius: 15px;
+	padding: 10px 10px 10px 10px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+	letter-spacing: 1px;
+	background-color: rgb(138, 17, 44);
+	color: cornsilk;
+	transition: background-color 0.9s;
+	cursor: pointer;
+	left: -60px;
+}
+
+.button:hover{
+	background-color: rgb(26, 42, 189);
+	color: rgb(16, 136, 46);}
+
+
+
+/*footer*/
+
+.footer{
+    position: absolute;
+	bottom: 0px;
+	top: 500px;
+	height: 270px;
+	background-color:darkslategray;
+	display: block;
+	width: 100vw;
+} 
+hr{
+	height: 3px;
+}
+.cu{
+	text-decoration: underline;
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.cu:hover{
+	color: black;
+}
+.location{
+	position: absolute;
+	top: 70px;
+	bottom: 50px;
+	left: 50px;
+}
+.h3location{
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 70px;
+	bottom: 50px;
+	left: 100px;
+
+}   
+.email{
+	position: absolute;
+	top: 156px;
+    left: 50px;
+}
+.h3email{
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 165px;
+	bottom: 50px;
+	left: 100px
+}
+.phone{
+	position: absolute;
+	top: 220px;
+    left: 50px;
+}
+.h3phone{
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 230px;
+	bottom: 50px;
+	left: 100px;
+}
+.footerlogo{
+	position: absolute;
+	top: 45px;
+    left: 600px;
+}
+.fu{
+	text-decoration: underline;
+	color: white;
+	position: absolute;
+	top: 13px;
+	right: 250px;
+}
+.fu:hover{
+	color: black;
+}
+.fb{
+	position: absolute;
+	top: 100px;
+	bottom: 50px;
+	right:  300px;
+}
+.tt{
+	position: absolute;
+	top: 100px;
+	bottom: 50px;
+	right:  210px;
+}
+.insta{
+	position: absolute;
+	top: 100px;
+	bottom: 50px;
+	right:  120px;}
+.copy{
+	position: absolute;
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 240px;
+	right: 20px;
+}

@@ -1,0 +1,319 @@
+body{
+
+	background-image: url(../images/bi.jpg) ;
+	background-repeat: no-repeat;
+	backface-visibility: visible;
+	background-size: cover;
+	
+	
+	
+}
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: rgb(163, 6, 6);
+  }
+  
+li.dropdown {
+	display: inline-block;
+  }
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: small;
+	border-radius: 5px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: left;
+  }
+  
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	 color: black;
+	
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+	background: linear-gradient(rgb(22, 224, 180),blue);
+	
+	
+  }
+
+.User-profile{
+        width: 400px;
+        height: 400px;
+        margin-top: 300px;
+		background: linear-gradient(80deg,rgba(52, 255, 228, 0.747),rgba(145, 211, 83, 0.479));
+        padding: 90px 80px;
+        border-radius: 15px;
+        position: absolute;
+        left: 50%;
+        top: 35%;
+        transform: translate(-50%,-50%);
+}
+.h{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal; 
+    right: 50px; ;
+
+}
+li {
+	list-style: none ;
+	float: right;
+
+}
+
+.lic{
+	font-size:large;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	top: 30px;
+	position:absolute;
+	left: 110px;
+	color: antiquewhite;
+}
+.logo{
+	float: left;
+	
+}
+.links{
+	text-decoration: none;
+	color: rgb(108, 172, 224);
+	display: block;
+	padding: 18px;
+	margin: 5px;
+	font-size: 28px ;
+	position: relative;
+    top: 15px;
+    transition: background-color 0.9s;
+	border-radius: 25px;
+	border-style:unset;
+}
+.links2
+{
+	text-decoration: none;
+	color: rgb(253, 253, 253);
+	display: block;
+	padding: 18px;
+	font-size: 25px ;
+	position: relative;
+    top: 12px;
+    transition: background-color 0.9s;
+	border-radius: 45px;
+}
+.links:hover
+{  
+	background-color: rgb(143, 39, 53);
+	color: rgb(255, 255, 255);
+	
+}
+.links2:hover{
+	background-color: rgb(8, 184, 238);
+	color: rgb(255, 255, 255);
+}
+
+nav {
+	overflow :hidden ;
+	background-color: rgb(20, 22, 121);
+
+}
+*{ margin: 0px;
+	padding: 0px;
+}
+
+.footer{
+    position:relative;
+	height: 270px;
+	bottom: 0%;
+	background-color:darkslategray;
+	display: block;
+	width: 100vw;
+	margin-top: 900px;
+} 
+hr{
+	height: 3px;
+}
+.cu{
+	text-decoration: underline;
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.cu:hover{
+	color: black;
+}
+.location{
+	position: absolute;
+	top: 70px;
+	bottom: 50px;
+	left: 50px;
+}
+.h3location{
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 70px;
+	bottom: 50px;
+	left: 100px;
+
+}   
+.email{
+	position: absolute;
+	top: 156px;
+    left: 50px;
+}
+.h3email{
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 165px;
+	bottom: 50px;
+	left: 100px
+}
+.phone{
+	position: absolute;
+	top: 220px;
+    left: 50px;
+}
+.h3phone{
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 230px;
+	bottom: 50px;
+	left: 100px;
+}
+.footerlogo{
+	position: absolute;
+	top: 45px;
+    left: 600px;
+}
+.fu{
+	text-decoration: underline;
+	color: white;
+	position: absolute;
+	top: 13px;
+	right: 250px;
+}
+.fu:hover{
+	color: black;
+}
+.fb{
+	position: absolute;
+	top: 100px;
+	bottom: 50px;
+	right:  300px;
+}
+.tt{
+	position: absolute;
+	top: 100px;
+	bottom: 50px;
+	right:  210px;
+}
+.insta{
+	position: absolute;
+	top: 100px;
+	bottom: 50px;
+	right:  120px;}
+.copy{
+	position: absolute;
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 240px;
+	right: 20px;
+}
+
+.title{
+	
+	font-size: 25px;
+	font-weight: 700;
+	margin-bottom: 25px;
+	color: #063247;
+	text-transform: uppercase;
+	text-align: center;
+  }
+
+  input[type=text] ,input[type=date], input[type=tel]{
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+	background-color: #62dbeb96;;
+	outline: none;
+  }
+
+  button{
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+}
+button:hover{
+    background: linear-gradient(90deg,rgba(3, 3, 233, 0.801),rgb(8, 197, 255));
+}
+input{
+    width: 15px;
+    height: 12px;
+    border-radius: 5px;
+    border-top-color: red;
+    border-bottom-color: green
+}
+
+
+input{
+    width: 15px;
+    height: 12px;
+    border-radius: 5px;
+    border-top-color: red;
+    border-bottom-color: green
+}
+
+
+.ha1{
+	font-family: 'Permanent Marker', cursive;
+  }
+
+
+  .logbtn{
+	display: block;
+	width: 100%;
+	height: 50px;
+	border: none;
+	background: linear-gradient(120deg,#00eeff,#2600ff);
+	background-size: 200%;
+	color: #fff;
+	outline: none;
+	cursor: pointer;
+	transition: .5s;
+	font-size: 20px;
+  }
+  
+  .logbtn:hover{
+	background-position: right;
+  }

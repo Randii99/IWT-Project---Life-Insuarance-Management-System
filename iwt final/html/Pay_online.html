@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+       <title>  Pay Online  </title>
+       <link rel ="stylesheet" href="../css/Pay_online.css">
+       <script src="../js/Pay_online.js"></script>
+       
+</head> 
+    <body>
+     
+        <!--header-->
+	<nav> 
+        <div class="logo"> 
+           <a href="#" ><img src="../images/logo.PNG" height="=100px"  width="100px" >
+           </a>
+           ,<a href="#" ><p class="lic"> LIFE CARE <br> INSURANCE</p></a>
+         
+        </div>
+       
+        <ul> 
+            <li class="dropdown">
+                <a href="#"  class="links">Login</a>
+                <div class="dropdown-content">
+                  <a href="login.html">User</a>
+                  <a href="S_login.html">Sales Agent</a>
+                  <a href="claimslog.html">Claims Clarck</a>
+                </div></li>
+
+                <li> <a class="links" href="Contact.html"> Contact Us </a> </li>
+                <li> <a class="links" href="Pay_online.html"> Pay Online </a> </li>
+                <li class="dropdown">
+                    <a href="#"  class="links">Catogery</a>
+                    <div class="dropdown-content">
+                      <a href="../html/whole.html">Whole Life</a>
+                      <a href="../html/term1.html">Term Life</a>
+        </ul>
+    </nav>
+
+    <!--Pay Online-->
+    
+    <h2 class="pay-heading">Online Payments</h2>
+    <div class="wrapper">
+    <form name="pay-online" method="POST" action="../php/Pay_online.php">
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" placeholder="Payer Name" required=required class="name" name="name">
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Payer NIC" required=required class="name" name="NIC">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-box">
+                <input type="email" placeholder="Payer E-mail Address" required=required class="name" name="email">
+            </div>
+        </div>
+
+
+        <div class="input-group">
+            <div class="input-box">
+                <input type="text" placeholder="Client ID" required=required class="name" name="client_id">
+            </div>
+
+            <div class="input-box">
+                <input type="text" placeholder="Policy Number" required=required class="name" name="policy_number">
+            </div>
+        </div>
+
+        <div class="input-group">
+            <div class="input-box">
+                <input type="amount" placeholder="Amount" required=required class="name" name="amount">
+            </div>
+        </div>
+
+        <button type="reset" class="re-button">Reset</button>
+        <button type="submit" class="sub-button">Next</button>
+
+
+    </form>
+    </div>
+
+
+   
+
+  
+
+
+	    <!--footer-->
+
+        <div class="footer">
+            <a href="#" ><h2 class="cu" >  Contact Us   </h2> </a>
+            <img class="location" src="../images/location.jpg" height="30px" width="30px"> 
+            <h3 class="h3location">  Life care insurance, <br>No 132,<br> station rd,colombo 04. </h3>
+            <img class="email" src="../images/mail.png" height="30px" width="30px">
+            <h3 class="h3email" > lifecareinsurance@gmail.com </h3>
+            <img class="phone " src="../images/call.png"  height="30px" width="30px">
+            <h3 class="h3phone" >011588777 </h3>
+            <a href="#"><img class="footerlogo" src="../images/flogo.PNG" height="210px" width="210px " alt="flogo"> </a>
+
+            <a   href="#"><h2 class="fu"> Find Us</h2></a>
+            <a   href="www.facebook.com"><img class="fb" src="../images/fb.png" height="30px" width="30px" > </a>
+            <a  href="www.instagram.com"><img class="tt" src="../images/tt.png" height="30px" width="30px"> </a>
+            <a  href="www.twitter.com"><img class="insta" src="../images/insta.png" height="30px" width="30px"> </a>
+            <h2 class="copy"> Copywrite All Right Recieved @ </h2>
+        </div>
+       
+	
+ </body>
+</html>

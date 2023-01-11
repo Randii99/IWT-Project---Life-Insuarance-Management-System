@@ -1,0 +1,263 @@
+body{
+background: linear-gradient(90deg,rgb(0, 47, 255),rgb(0, 238, 255));
+	
+}
+
+/*header*/
+li {
+	list-style: none ;
+	float: right;
+
+}
+
+.lic{
+	font-size:large;
+	font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	top: 30px;
+	position:absolute;
+	left: 110px;
+	color: antiquewhite;
+}
+.logo{
+	float: left;	
+}
+.links{
+	text-decoration: none;
+	color: rgb(108, 224, 209);
+	display: block;
+	padding: 18px;
+	margin: 5px;
+	font-size: 28px ;
+	position: relative;
+    top: 15px;
+    transition: background-color 0.9s;
+	border-radius: 25px;
+	border-style:unset;
+}
+
+
+li a, .dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+li a:hover, .dropdown:hover .dropbtn {
+	background-color: rgb(163, 6, 6);
+  }
+  
+li.dropdown {
+	display: inline-block;
+  }
+  
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 100px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-size: small;
+	border-radius: 5px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+  }
+  
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-align: left;
+  }
+  
+.dropdown-content a:hover {
+	background-color: #f1f1f1;
+	 color: black;
+	
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+	background: linear-gradient(rgb(22, 224, 180),blue);
+	
+	
+  }
+
+.links2
+{
+	text-decoration: none;
+	color: rgb(253, 253, 253);
+	display: block;
+	padding: 18px;
+	font-size: 25px ;
+	position: relative;
+    top: 12px;
+    transition: background-color 0.9s;
+	border-radius: 45px;
+}
+.links:hover
+{  
+	background-color: rgb(143, 39, 53);
+	color: rgb(255, 255, 255);
+	
+}
+.links2:hover{
+	background-color: rgb(8, 184, 238);
+	color: rgb(255, 255, 255);
+}
+
+nav {
+	overflow :hidden ;
+	background-color: rgb(20, 22, 121);
+	width: 100%;
+
+}
+*{ margin: 0px;
+	padding: 0px;
+}
+input[type="file"]{
+	border-radius: 300px;
+     background: linear-gradient(90deg,rgb(204, 147, 147),rgb(255, 0, 255));
+     color: blanchedalmond;
+     text-align: center;
+}
+.pdf
+{
+    background:linear-gradient(90deg,rgb(231, 33, 33),blue);
+    width: 505px;
+    height: 50px;
+    border-radius: 60px;
+    
+  
+}
+
+a{
+    color: blanchedalmond;
+    word-spacing: 3px;
+}
+input[type="submit"]
+{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(0, 225, 255),rgb(4, 255, 100));
+    cursor: pointer;
+
+}
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+/*footer*/
+
+.footer{
+    position: absolute;
+	height: 270px;
+	margin-top: 100px;
+	background-color:darkslategray;
+	display: block;
+	width: 100%;
+} 
+hr{
+	height: 3px;
+}
+.cu{
+	text-decoration: underline;
+	color: white;
+	position: absolute;
+	top: 10px;
+	left: 20px;
+}
+.cu:hover{
+	color: black;
+}
+.location{
+	position: absolute;
+	top: 70px;
+	bottom: 50px;
+	left: 50px;
+}
+.h3location{
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 70px;
+	bottom: 50px;
+	left: 100px;
+
+}   
+.email{
+	position: absolute;
+	top: 156px;
+    left: 50px;
+}
+.h3email{
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 165px;
+	bottom: 50px;
+	left: 100px
+}
+.phone{
+	position: absolute;
+	top: 220px;
+    left: 50px;
+}
+.h3phone{
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 230px;
+	bottom: 50px;
+	left: 100px;
+}
+.footerlogo{
+	position: absolute;
+	top: 45px;
+    left: 600px;
+}
+.fu{
+	text-decoration: underline;
+	color: white;
+	position: absolute;
+	top: 13px;
+	right: 250px;
+}
+.fu:hover{
+	color: black;
+}
+.fb{
+	position: absolute;
+	top: 100px;
+	bottom: 50px;
+	right:  300px;
+}
+.tt{
+	position: absolute;
+	top: 100px;
+	bottom: 50px;
+	right:  210px;
+}
+.insta{
+	position: absolute;
+	top: 100px;
+	bottom: 50px;
+	right:  120px;}
+.copy{
+	position: absolute;
+	color: white;
+	position: absolute;
+	font-family: Arial, Helvetica, Arial, sans-serif ;
+	font-size: medium;
+	top: 240px;
+	right: 20px;
+}
